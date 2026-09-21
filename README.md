@@ -30,10 +30,11 @@ financing, a lawsuit - are flagged with citations but never subtracted. Full det
 ## Who am I
 
 I am Vish Tella. I am not an energy expert. I am a verification person. I spent a decade in ad
-tech building the fraud-detection and inventory-quality products that made RhythmOne's inventory
-the #1-ranked in the world for quality by Pixalate, two years running. Ad tech learned that much
-of what is offered for sale isn't what it claims to be, and built verification into the pipes.
-Same concept, different context here.
+tech, including building fraud-detection and inventory-quality products at RhythmOne, which
+ranked #1 on Pixalate's Seller Trust Index — the ad industry's independent inventory-quality
+ranking — repeatedly from 2017 to 2019. Ad tech learned that much of what is offered for sale
+isn't what it claims to be, and built verification into the pipes. Same concept, different
+context here.
 
 ## Commissioned work
 
