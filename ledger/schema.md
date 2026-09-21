@@ -16,7 +16,7 @@ overwrite, so the history of what was claimed and known when stays intact.
 | `sponsor` | The company or companies claiming to build, own, or operate the capacity. |
 | `project_name` | The name the project is publicly known by. |
 | `claimed_mw` | The megawatt capacity the sponsor has publicly claimed for this site, as reported. |
-| `claim_date` | The date the `claimed_mw` figure was publicly stated (announcement date), where known. |
+| `claim_date` | The date the `claimed_mw` figure was publicly stated (announcement date), sourced from gridscore's `candidate_universe.md`. Recorded at whatever precision the source gives — a full date (`YYYY-MM-DD`) when a day was reported, `YYYY-MM` when only a month was, `YYYY` when only a year was. Blank means the source explicitly marked the date as unconfirmed ("exact date TBD") rather than that no date exists — left blank instead of guessed. |
 | `site_control` | Score (0–25) for how solid the public evidence is that the sponsor actually controls the land — a recorded deed or lease, an SEC filing, or a government body's own record scores highest; a press release alone scores lowest. |
 | `physical` | Score (0–25) for physical build evidence — a docket-numbered generation permit is the strongest signal that construction is real. Shown as `n/o` (not observable) when the project's power strategy falls under Texas's permit-by-rule exemption (30 TAC §106.511), meaning the absence of a permit is genuinely uninformative rather than a sign nothing exists — see `scoring_basis`. |
 | `financial` | Score (0–15) for financial commitment evidence specific to this site — an executed interconnection or power-supply agreement, a PUC filing, or a disclosed financing figure. |
