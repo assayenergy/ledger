@@ -46,6 +46,12 @@ phrasing for a few hours after publication and was fixed the same day.
   write-up. The difference was $11.18 versus $10.74 per MWh, about 4%, too thin to carry the
   claim.
 
+## 2026-09-22
+
+A working file committed to this repository in error was removed by history
+rewrite on 2026-09-22. No other history has been altered. This is the only
+instance of history modification in this repository.
+
 If you find an error, reply to any post or write to hello@assay.energy. Corrections are credited.
 
 Source: [assayenergy.substack.com/p/corrections](https://assayenergy.substack.com/p/corrections)

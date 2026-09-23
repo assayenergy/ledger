@@ -1,0 +1,30 @@
+project_name,locality,capacity_kwac,award_date,li_bucket
+"VA Shared Solar, LLC - Courthouse Hwy Solar 1, LLC","Smithfield, VA",3000,2026-07-01,LOW_INCOME
+"Nansemond Solar, LLC - Nansemond Solar, LLC","Suffolk, VA",4999,2026-07-01,LOW_INCOME
+"Solar Development Group, LLC - Hickory Road Solar Farm, LLC","Petersburg, VA",2500,2026-07-01,LOW_INCOME
+"CVE North America, Inc. - CVE US VA Suffolk 141 LLC","Suffolk, VA",5000,2026-07-01,LOW_INCOME
+"CVE North America, Inc. - CVE US VA Petersburg 224 LLC","Petersburg, VA",2550,2026-07-01,LOW_INCOME
+"Nexamp, Inc. - Buck Island Solar, LLC","Charlottesville, VA",3000,2026-07-01,LOW_INCOME
+"RWECE Clean Energy, Inc. - Matoaca VAA, LLC","Petersburg, VA",4950,2026-07-01,LOW_INCOME
+"Solar Development Group, LLC - Enon Road Solar Farm, LLC","Fredericksburg, VA",3000,2026-07-01,LOW_INCOME
+"New Energy Equity VA LLC - King William Solar 1, LLC","West Point, VA",5000,2026-07-01,LOW_INCOME
+"Solar Development Group, LLC - Long Ridge Solar Farm, LLC","Chesapeake, VA",5000,2026-07-01,LOW_INCOME
+"Colonial Solar, LLC - Colonial Solar, LLC","Colonial Beach, VA",4800,2026-07-01,LOW_INCOME
+"RWECE Clean Energy, Inc. - Matoaca VAC, LLC","Petersburg, VA",3000,2026-07-01,LOW_INCOME
+"RWECE Clean Energy, Inc. - Waynesboro VAB, LLC","Waynesboro, VA",3000,2026-07-01,LOW_INCOME
+"RWECE Clean Energy, Inc. - Fisherville VAA, LLC","Fisherville, VA",3000,2026-07-01,LOW_INCOME
+"RWECE Clean Energy, Inc. - Elm Spring Solar 1, LLC","Fisherville, VA",3000,2026-07-01,LOW_INCOME
+"Solar Development Group, LLC - Marrow Street Solar Farm, LLC","South Hill, VA",2000,2026-07-01,LOW_INCOME
+"Solar Development Group, LLC - Sinai Road Solar Farm, LLC","South Boston, VA",5000,2026-07-01,LOW_INCOME
+"Hexagon Development Group, LLC - Secretariat Solar, LLC","Suffolk, VA",3000,2026-07-01,LOW_INCOME
+"Hexagon Development Group, LLC - Hedera Solar, LLC","Toana, VA",3000,2026-07-01,LOW_INCOME
+"Hexagon Development Group, LLC - Popes Creek Solar","South Boston, VA",3000,2026-07-01,LOW_INCOME
+"Nexamp, Inc - Harmon West Solar, LLC (low-income portion)","Moseley, VA",1799,2026-07-01,LOW_INCOME
+"Nexamp, Inc - Harmon West Solar, LLC (general portion)","Moseley, VA",3201,2026-07-01,GENERAL
+"RWECE Clean Energy, Inc - RWE Clean Energy DCE Development, LLC","Petersburg, VA",3000,2026-07-01,GENERAL
+"Solar Development Group, LLC - Powhatan Road Solar Farm, LLC","King George, VA",5000,2026-07-01,GENERAL
+"Solar Development Group, LLC - Marrow Street Solar Farm 2, LLC","South Hill, VA",2000,2026-07-01,GENERAL
+"Summit Ridge Energy, LLC - South Chesterfield PV, LLC","Petersburg, VA",3000,2026-07-01,GENERAL
+"Chaberton Solar Virginia, LLC - Chaberton Solar Wellington I, LLC","Suffolk, VA",4990,2026-07-01,GENERAL
+"Solar Development Group, LLC - Old Valley Solar Ranch, LLC","Edinburg, VA",5000,2026-07-01,GENERAL
+Community Power Group LLC - Campostella Landfill Solar 1 LLC,"Norfolk, VA",5000,2026-07-01,GENERAL
