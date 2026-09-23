@@ -5,6 +5,11 @@ Mirror of the Substack page, kept here for timestamped history. Last synced: 202
 A verification practice that doesn't correct itself is not an honest one. Every correction is
 listed here with its date. Both after publishing, and in review before going live.
 
+**September 23, 2026, parcel reference.**
+
+- Removed a reference to a specific parcel from parcels/va/county-surry.md. The reference remains
+  in earlier history; it concerns a parcel no longer under consideration.
+
 **September 23, 2026, utility territory method file.**
 
 - Removed references to private working data from the method file. Sections 3 and 5 of
