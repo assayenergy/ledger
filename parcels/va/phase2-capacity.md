@@ -1,5 +1,8 @@
 # Virginia Shared Solar Program — Phase II capacity position
 
+> Disclosure: the author has a financial interest in land acquisition in the counties covered by
+> this research.
+
 As of 2026-09-22. Every figure below is either read directly from a cited primary source and
 tagged `[gov-record]` / `[press]`, or is arithmetic performed on those tagged figures (labeled
 "derived" and shown with its inputs). Nothing here is estimated.
@@ -207,7 +210,7 @@ find the petition itself in the public record.
 **Document that would settle it:** the SCC's Case Information docket search
 ([scc.virginia.gov/docketsearch](https://scc.virginia.gov/docketsearch)) — specifically, watch
 case **PUR-2020-00125** for a new filing captioned around "shared solar expansion proceeding" or
-"Part III," or a new standalone PUR-20XX-XXXXX petition docket from Virginia Electric and Power
+"Part III," or a new standalone PUR-numbered petition docket from Virginia Electric and Power
 Company on the same subject.
 
 ## Locality frequency (by awarded capacity)

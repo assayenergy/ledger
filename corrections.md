@@ -5,6 +5,51 @@ Mirror of the Substack page, kept here for timestamped history. Last synced: 202
 A verification practice that doesn't correct itself is not an honest one. Every correction is
 listed here with its date. Both after publishing, and in review before going live.
 
+**September 23, 2026, utility territory method file.**
+
+- Removed references to private working data from the method file. Sections 3 and 5 of
+  parcels/va/utility-territory-method.md are rewritten as general method: evidence tiers for which
+  utility serves a location, and a three-state way of recording the determination. Removed text
+  that referred to non-public working files. The change is forward-only; the earlier text remains
+  in the repository history.
+
+**September 23, 2026, Surry setback wording and citations.**
+
+- Surry: the setback was summarized as "300 feet from all abutting public rights-of-way and main
+  buildings on adjoining parcels/property lines." The slash blurred whether the 300 ft runs from
+  buildings or from property lines. The adopted text (§ 4-608(A)(7), Ord. No. 2025-01) runs it
+  from both: "from all abutting public rights of way and main buildings on adjoining parcels and
+  from adjacent property lines," with an exception for adjoining parcels the applicant owns or
+  leases. The file now quotes the Municode text verbatim.
+- Surry: the discretionary proximity factor was cited as "Sec. 1-501.1(B)(4)." Corrected to
+  § 4-608(B)(4).
+- Surry: the § 1-501.1 cap quote came from the Feb. 2025 hearing-notice draft ("7 percent"). It is
+  now quoted from the codified text ("seven percent"). The substance is unchanged.
+
+**September 23, 2026, Virginia county solar files, precedent check.**
+
+- Surry: Sycamore Cross was listed as "Approved" in Surry with a siting agreement on Feb. 13,
+  2025. Corrected: the Surry Board of Supervisors denied the CUP and the siting agreement
+  unanimously that night, overturning a 5–4 Planning Commission recommendation.
+- Surry: cap headroom was given as a bottom-up sum of 6,737 acres used and 3,958 acres remaining.
+  That sum double-counted Spring Grove II's ~1,650 acres, which lie inside CUP 2018-03 and CUP
+  2020-02; it counted the denied Sycamore Cross (124 acres); and it used a press figure (2,950)
+  where a county letter gives 3,905+ acres. Replaced with the county's own figure from the 2026
+  Comprehensive Plan: 8,260 acres used and 2,435 acres remaining (10,695 − 8,260). Spring Grove
+  II's approval date was also corrected: it has no CUP of its own and was approved in two parts,
+  on May 3, 2018 and July 2, 2020.
+- Sussex: Blackwater Solar was described as "500 MWac on ~4,200 acres." 4,200 acres is the
+  disturbance area. Corrected: the total project area is 8,355 acres (July 16, 2026 Board packet).
+  The Planning Commission's 7–0 recommendation to deny was placed "in an earlier round." Corrected:
+  it was made on this application, on March 2, 2026.
+- Southampton: an Aug. 2021 staff remark was presented as acknowledging the gap in the current
+  ordinance. Corrected: the remark described the Dec. 2018 ordinance. The 20 MW minimum was
+  adopted later, in July 2022, and the adoption record shows the Board was told it excludes 1–5 MW
+  projects.
+- Removed from the Surry and Southampton files: a reference to a specific parcel, a link to an
+  unpublished file, a tax-map parcel ID and two street addresses. Parcel-level data does not belong
+  in this repository. They remain in the history of commit 2528f36.
+
 **August 5, 2026, pre-publication review (GridScore).**
 
 - Fermi America's IPO date was written as September 2025. Corrected to on or around October 1,

@@ -3,7 +3,7 @@
 > Disclosure: the author has a financial interest in land acquisition in the counties covered by
 > this research.
 
-As of 2026-09-22. Every fact is tagged `[gov-record]` (a county ordinance, Board of Supervisors
+As of 2026-09-22; precedent check added 2026-09-23. Every fact is tagged `[gov-record]` (a county ordinance, Board of Supervisors
 record, or SCC/state filing) or `[press]` (news reporting). Where a fact could not be sourced, it
 says so explicitly and names the document that would settle it.
 
@@ -23,10 +23,23 @@ says so explicitly and names the document that would settle it.
   General Agricultural (A-1), Limited Industrial (I-1), and General Industrial (I-2) districts;
   not permitted at all in Residential Multi-Family (R-1). Medium-scale solar is by-right in I-1
   and I-2 only. Sec. 16-403(c). `[gov-record]`
-- **Setback from residences:** **300 feet** from a dwelling (also 150 ft from adjacent property
-  lines and 150 ft from public rights-of-way — whichever is more restrictive controls). The
-  Planning Commission or Board may require up to **400 feet** where topography or structure
-  height increases visual impact. Sec. 16-406(d)(1)–(2). `[gov-record]`
+- **Setbacks, § 34-910(d) (formerly § 16-406(d)), verbatim:** *"Solar facilities shall meet all
+  setback requirements for primary structures for the zoning district in which the facility is
+  located and the requirements set forth in this subsection (the more restrictive requirements shall
+  apply). (1) The minimum setback of structures and uses associated with the facility, including
+  fencing, PV panels, parking areas, and outdoor storage, but not including landscaping and berming,
+  shall be: a. 150 feet from adjacent property lines. b. 150 feet from all public rights-of-way.
+  c. 300 feet from a dwelling. (2) The planning commission or board of supervisors may require
+  increased setbacks up to 400 feet in situations where the height of structures or the topography
+  affects the visual impact of the facility. (3) These setback requirements shall not apply to
+  internal property lines of those parcels on which a solar facility is located."* `[gov-record]` —
+  [Sussex County Code § 34-910 on Municode](https://library.municode.com/va/sussex_county/codes/code_of_ordinances?nodeId=COOR_CH34ZO_ARTVIISOBAFA_S34-910MIDEPEST),
+  history "(Ord. of 2-17-2022, § 16-406)", captured 2026-09-23.
+  - **Measured from: both.** It is 150 ft from adjacent property lines and 150 ft from public
+    rights-of-way, and 300 ft from a dwelling, with the more restrictive controlling.
+  - The buffer, § 34-910(e): *"The buffer shall be located within the setbacks required under
+    this section and shall run around the entire perimeter of the property."* `[gov-record]`
+    (same source)
 - **Acreage/percentage cap:** **None county-wide.** The ordinance sets only per-project standards:
   minimum facility area of 100 acres, maximum 65% acreage-coverage ratio per project. Sec.
   16-406(b)(1)–(2). `[gov-record]`
@@ -38,7 +51,7 @@ All of the above verified directly against the ordinance text: [Sussex County Co
 
 ## Does this apply at 5 MW
 
-**AMBIGUOUS.**
+**AMBIGUOUS.** Still ambiguous after the 2026-09-23 precedent check; see "Precedent check" below.
 
 Sussex's ordinance (Sec. 16-1, Definitions) defines solar facilities by size tier: `[gov-record]`
 
@@ -76,6 +89,83 @@ CUP-requirement question is ambiguous.
 County Planning and Zoning Department — (434) 246-1042, bwalkup@sussexcountyva.gov. `[gov-record]`
 — [Planning and Zoning Staff](https://sussexcountyva.gov/department/planning-and-zoning-department/planning-and-zoning-staff/).
 
+## Precedent check (added 2026-09-23)
+
+**Verdict: AMBIGUOUS.** The only new approval, Blackwater Solar (500 MWac), was classified as
+utility-scale by generation capacity and never as "solar facility, shared". No Sussex solar
+approval at or below 5 MW exists in the records reviewed, and "solar facility, shared" still has
+no row in the use table. Nothing on record settles the 5 MW path. All sources below were
+captured 2026-09-23.
+
+**Recodification.** The solar article now appears as Appendix B, Article VII, "Solar and Battery
+Facilities." The definitions are in Sec. 34-1 (formerly Sec. 16-1) and the use table in Sec.
+34-907(c) (derived from Sec. 16-403(c)). `[gov-record]` —
+[Article VII text](https://sussexcountyva.gov/wp-content/uploads/2025/07/ARTICLE_VII.___SOLAR_AND_BATTERY_FACILITIES-.pdf).
+The section numbers elsewhere in this file are the pre-recodification numbers used in the Feb.
+2022 adopted ordinance.
+
+### Blackwater Solar: CUP #2026-01, BOS July 16, 2026
+
+Sources: [July 16, 2026 BOS agenda](https://sussexcountyva.gov/wp-content/uploads/2026/07/7-16-2025-BOS-Regular-Meeting-Agenda.pdf)
+(the file name says 2025; the content says "Thursday, July 16, 2026") and
+[July 16, 2026 Board packet](https://sussexcountyva.gov/wp-content/uploads/2026/07/7-16-2026-Board-Packet.pdf),
+236 pp. `[gov-record]` **Scan note:** packet pp. 104–190 are page images with no text layer. They
+were read by OCR, and quotes from them are marked [OCR]. OCR can mis-transcribe characters, so
+check against the page images before quoting further.
+
+| Item | Record | Source (packet) |
+|---|---|---|
+| Nameplate | **500 MWac**. Condition 3: "Project capacity shall be limited to a maximum of 500 MW for the solar facility." | p. 148 memo; conditions [OCR] |
+| Acreage | Total project area **8,355 ac**; disturbance **4,200 ac**; under panels **1,290 ac**; area rezoned **±1,279 ac** | CUP staff report, p. 65 [OCR]; Board Action Form, p. 58 |
+| Zoning district | **A-1 (General Agricultural)**. Most of the site was already A-1; two parcels were rezoned from PUD to A-1 because "a utility-scale solar facility is not allowed as use within the PUD zoning district" | p. 58; CUP staff report [OCR] |
+| Permit type | **Conditional Use Permit #2026-01** plus Rezoning/Zoning Map Amendment #2026-01, and a siting agreement under Va. Code § 15.2-2316.8 (agenda item 4.05) | agenda; p. 58 |
+| Use classification | **Utility-scale, not shared.** The conditions preamble reads "Utility Scale Solar Facility... as defined by Appendix B, Zoning, Article I, Section 16-1". The completeness memo reads "based upon the generation capacity of the proposed facility (500 MW) … the facility is a utility-scale solar facility, as defined." No packet document uses "solar facility, shared" for this project. | conditions [OCR]; Berkley Group memo, p. 93 [OCR] |
+| Planning Commission | Public hearing March 2, 2026; "voted to recommend denial of both the rezoning and Conditional Use Permit … (7-0)." Staff recommended approval with conditions. | p. 58 |
+| BOS vote | **UNVERIFIED.** The Aye/Nay grid on the Board Action Form is blank, and the minutes are not posted. | p. 58 |
+
+**Correction to this file's earlier text:** this file said the Planning Commission's 7–0 denial
+recommendation came "in an earlier round" before a resubmission. The packet records the 7–0
+denial recommendation on **this** application, at the March 2, 2026 hearing. See
+[corrections.md](../../corrections.md).
+
+**Reversal flagged, not scored:** the Planning Commission recommended denial 7–0 and the Board
+approved anyway. `[gov-record]` (p. 58) / `[press]` (WAVY, above).
+
+**Inconsistency in the county's own packet:** the CUP staff report says the site is "approximately
+.5 mile" from the Town of Wakefield [OCR], while the Board Action Form says "approximately 1.5
+miles." `[gov-record]` The distance is left unresolved here.
+
+### Other Sussex solar approvals ≤5 MW
+
+**None found.** The county's approved-facilities chart (status as of April 17, 2026) lists Sappony
+(20 MW), Waverly (118 MW), Cassius Blue (394 MW) and the Shand's BESS (20 MW storage).
+`[gov-record]` — [chart](https://sussexcountyva.gov/wp-content/uploads/2025/07/Approved-Solar-Facilities-and-Battery-Energy-Storage-System-4.17-scaled.jpg).
+The readable 2024–2026 minutes and packets contain no solar approval at or below 5 MW.
+**Limitation:** the county's legacy links for 2019–2024 documents returned HTTP 404, so records
+from those years were not checked. The claim of no approvals is therefore confirmed only for
+2025–2026 plus the county's own chart.
+
+### Use table and staff interpretation
+
+- **"Solar facility, shared" is still not in the use table.** Sec. 34-907(c) has three rows:
+  Multi-family shared, Medium-scale and Utility-scale. `[gov-record]` — Article VII text (above);
+  the same three rows are reproduced in the Blackwater completeness memo (packet p. 93).
+- **ZTA #2026-03** (accessory BESS) changes only the battery subsection. **UNVERIFIED** whether it
+  passed: the June 30, 2026 Board Action Form's vote grid is blank and the June 30 minutes are not
+  posted. `[gov-record]` — [Board Action Form](https://sussexcountyva.gov/wp-content/uploads/2026/06/Board-Action-Form-Zoning-Text-Amendment_.pdf).
+- **No staff interpretation of the ≤5 MW shared-solar path was found.** The ZTA #2026-03 staff
+  memo (June 23, 2026) says "amendments to the County's solar ordinance will be forthcoming to
+  ensure compliance with the new statutory requirements," citing SB 347/443 and HB 711/891.
+  `[gov-record]` [OCR; the PDF is image-only] —
+  [ZTA #2026-03 memo](https://sussexcountyva.gov/wp-content/uploads/2026/06/Zoning-Text-Amendment-2026-03.pdf).
+  The Blackwater siting-agreement memo applies siting agreements to projects "greater than 5
+  MWac". `[gov-record]` (packet p. 148)
+- **INFERENCE, not a finding:** Blackwater's memo classifies by generation capacity. Utility-scale
+  is described as "about one megawatt... or greater" and medium-scale tops out at 1 MW. On that
+  reading, a 1–5 MW ground-mounted shared facility would be processed as utility-scale: a CUP in
+  A-1, I-1 or I-2, subject to the 100-acre minimum facility area (Sec. 16-406(b)(1)), and with no
+  siting agreement. No Sussex record applies this reading to a project of that size.
+
 ## Cap status
 
 There is no codified cap to "reach." The county's own Planning & Zoning Department nonetheless
@@ -97,21 +187,18 @@ This is informational tracking, not a legal ceiling.
 
 **Approved after the April 2026 snapshot:**
 
-- **Blackwater Solar** (Clēnera, LLC) — **500 MWac on ~4,200 acres** near Wakefield. `[press]`,
-  company figures — [Blackwater Solar project overview](https://www.blackwater-solar.com/project-overview).
-  The Sussex Planning Commission voted 7–0 to **recommend denial** in an earlier round; Clēnera
-  withdrew and resubmitted with modifications; the **Board of Supervisors approved** the
-  rezoning, an amended siting agreement, and a CUP at its regular meeting on **July 16, 2026** —
-  the Board's third-Thursday cadence confirms this date (`[gov-record]`, [2026 Agendas and
-  Minutes](https://sussexcountyva.gov/agendas-and-minutes/) lists a "July 16, 2026" Board Packet).
-  Vote details (economic-development rationale cited by a supervisor over Planning Commission
-  opposition) are reported in press coverage: "Sussex County board of supervisors votes to
-  approve controversial solar project," WAVY.com (reported July 17, 2026; the live article
-  returned an access error in this session — cited via a syndication mirror,
-  [now.solar, July 19, 2026](https://now.solar/2026/07/19/sussex-county-board-of-supervisors-votes-to-approve-controversial-solar-project-wavy-com/),
-  and corroborating search-indexed excerpts). `[press]` The exact roll-call vote count was not
-  independently confirmed — the Board's minutes for July 16, 2026 (not yet posted as of this
-  writing) would settle it.
+- **Blackwater Solar** (Clēnera, LLC) — **500 MWac**; total project area **8,355 acres**, of
+  which **4,200 acres** disturbance area and **1,290 acres** under panels. `[gov-record]` — July
+  16, 2026 Board packet (captured 2026-09-23), CUP staff report. An earlier version of this file
+  gave "~4,200 acres" as the project size; that figure is the disturbance area, not the project
+  area — see [corrections.md](../../corrections.md). Full record under "Precedent check" below.
+  The **Board of Supervisors approved** the rezoning, an amended siting agreement, and a CUP on
+  **July 16, 2026**. `[gov-record]` for the agenda item; `[press]` for the outcome — "Sussex
+  County board of supervisors votes to approve controversial solar project," WAVY.com (the live
+  article returned HTTP 403 again on 2026-09-23; headline-only mirror at
+  [now.solar, July 19, 2026](https://now.solar/2026/07/19/sussex-county-board-of-supervisors-votes-to-approve-controversial-solar-project-wavy-com/)).
+  **UNVERIFIED:** the roll-call count. The Board Action Form's Aye/Nay grid in the packet is
+  blank, and the July 16, 2026 minutes were not posted as of 2026-09-23.
 
 **Pending (not yet approved) as of the April 2026 snapshot, for reference:** Winfield Solar
 (Greenvolt Power Actualize, 76 MW — Planning Commission recommended denial June 2, 2025),
