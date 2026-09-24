@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Assay ledger: Texas data center projects</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1a1a1a;
+    --muted: #555555;
+    --border: #d8d8d8;
+    --row-alt: #f7f7f5;
+    --link: #0b4f8a;
+    --evidenced: #1e5f2e;
+    --evidenced-bg: #e7f3e9;
+    --progressing: #8a5a00;
+    --progressing-bg: #fbf1de;
+    --announced: #8a2020;
+    --announced-bg: #f7e7e7;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0 16px 48px;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+  }
+  .wrap { max-width: 980px; margin: 0 auto; }
+  h1 {
+    font-size: 1.5rem;
+    line-height: 1.3;
+    margin: 28px 0 6px;
+  }
+  .capture-line {
+    color: var(--muted);
+    font-size: 0.95rem;
+    margin: 0 0 20px;
+  }
+  .tier-counts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0 0 24px;
+    padding: 0;
+    list-style: none;
+  }
+  .tier-counts li {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 8px 14px;
+    font-size: 0.95rem;
+    white-space: nowrap;
+  }
+  .tier-counts .n { font-weight: 700; font-size: 1.1rem; }
+  .tier-evidenced { background: var(--evidenced-bg); border-color: var(--evidenced); color: var(--evidenced); }
+  .tier-progressing { background: var(--progressing-bg); border-color: var(--progressing); color: var(--progressing); }
+  .tier-announced { background: var(--announced-bg); border-color: var(--announced); color: var(--announced); }
+
+  .table-scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    margin-bottom: 28px;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 760px;
+    font-size: 0.88rem;
+  }
+  caption { text-align: left; padding: 8px 10px; font-size: 0.85rem; color: var(--muted); }
+  th, td {
+    padding: 8px 10px;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  th {
+    background: #f0f0ee;
+    position: sticky;
+    top: 0;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  tbody tr:nth-child(even) { background: var(--row-alt); }
+  td.num, th.num { text-align: right; white-space: nowrap; }
+  td.total { font-weight: 700; }
+  a { color: var(--link); }
+  .tier-cell-Evidenced { color: var(--evidenced); font-weight: 600; }
+  .tier-cell-Progressing { color: var(--progressing); font-weight: 600; }
+  .tier-cell-Announced-only { color: var(--announced); font-weight: 600; }
+
+  h2 { font-size: 1.15rem; margin: 32px 0 10px; }
+  .how-to-read {
+    background: #f7f7f5;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 14px 18px;
+    font-size: 0.92rem;
+  }
+  .how-to-read ul { margin: 8px 0; padding-left: 20px; }
+  .how-to-read li { margin: 4px 0; }
+  .signals-list { display: grid; grid-template-columns: 1fr; gap: 2px; margin: 8px 0 14px; padding: 0; list-style: none; }
+  .signals-list li { padding: 2px 0; }
+  .signals-list b { display: inline-block; min-width: 150px; }
+
+  .links-line {
+    margin: 24px 0;
+    font-size: 0.95rem;
+  }
+  .links-line a { margin-right: 16px; }
+
+  footer {
+    margin-top: 36px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+
+  @media (max-width: 480px) {
+    h1 { font-size: 1.25rem; }
+    body { padding: 0 10px 40px; }
+    .tier-counts li { font-size: 0.85rem; padding: 6px 10px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>Assay ledger: 21 announced Texas data center projects, scored against the public record</h1>
+  <p class="capture-line">Capture date: 2026-09-21. Every score links to its evidence file.</p>
+
+  <ul class="tier-counts">
+    <li class="tier-evidenced"><span class="n">8</span> Evidenced (70&ndash;100)</li>
+    <li class="tier-progressing"><span class="n">7</span> Progressing (40&ndash;69)</li>
+    <li class="tier-announced"><span class="n">6</span> Announced-only (0&ndash;39)</li>
+  </ul>
+
+  <div class="table-scroll">
+  <table>
+    <caption>Scroll sideways on a phone to see every column.</caption>
+    <thead>
+      <tr>
+        <th class="num">Rank</th>
+        <th>Project</th>
+        <th>Sponsor</th>
+        <th>County</th>
+        <th class="num">MW</th>
+        <th class="num">Site<br>(25)</th>
+        <th class="num">Physical<br>(25)</th>
+        <th class="num">Financial<br>(15)</th>
+        <th class="num">Incentive<br>(15)</th>
+        <th class="num">Track Rec.<br>(20)</th>
+        <th class="num">Total</th>
+        <th>Tier</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="num">1</td>
+        <td><a href="https://github.com/assayenergy/gridscore/blob/main/evidence/09-meta-el-paso.md">El Paso AI Data Center</a></td>
+        <td>Meta</td>
+        <td>El Paso County</td>
+        <td class="num">1,000</td>
+        <td class="num">25</td>
+        <td class="num">22</td>
+        <td class="num">15</td>
+        <td class="num">15</td>
+        <td class="num">20</td>
+        <td class="num total">97</td>
+        <td class="tier-cell-Evidenced">Evidenced</td>
+      </tr>
+      <tr>
+        <td class="num">2</td>
+        <td><a href="https://github.com/assayenergy/gridscore/blob/main/evidence/14-google-haskell-county.md">Panhandle Campus &mdash; Haskell County (&ldquo;Journey&rdquo;)</a></td>
+        <td>Google</td>
+        <td>Haskell County</td>
+        <td class="num">not disclosed</td>
+        <td class="num">20</td>
+        <td class="num">n/o (&sect;106.511)</td>
+        <td class="num">10</td>
+        <td class="num">15</td>
+        <td class="num">20</td>
+        <td class="num total">87</td>
+        <td class="tier-cell-Evidenced">Evidenced</td>
+      </tr>
+      <tr>
+        <td class="num">3</td>
+        <td><a href="https://github.com/assayenergy/gridscore/blob/main/evidence/01-fermi-america-project-matador.md">Project Matador (HyperGrid)</a></td>
+        <td>Fermi America</td>
+        <td>Carson County (county boundary itself unresolved)</td>
+        <td class="num">11,000</td>
+        <td class="num">25</td>
+        <td class="num">25</td>
+        <td class="num">12</td>
+        <td class="num">15</td>
+        <td class="num">3</td>
+        <td class="num total">80</td>
+        <td class="tier-cell-Evidenced">Evidenced</td>
+      </tr>
+      <tr>
+        <td class="num">3</td>
+        <td><a href="https://github.com/assayenergy/gridscore/blob/main/evidence/12-riot-platforms-corsicana.md">Corsicana Facility</a></td>
+        <td>Riot Platforms</td>
+        <td>Navarro County</td>
+        <td class="num">1,000</td>
+        <td class="num">22</td>
+        <td class="num">20</td>
+        <td class="num">15</td>
+        <td class="num">7</td>
+        <td class="num">16</td>
+        <td class="num total">80</td>
+        <td class="tier-cell-Evidenced">Evidenced</td>
+      </tr>
+      <tr>
+        <td class="num">5</td>
+        <td><a href="https://github.com/assayenergy/gridscore/blob/main/evidence/16-core-scientific-denton.md">Denton Campus (CoreWeave expansion)</a></td>
+        <td>Core Scientific</td>
+        <td>Denton County</td>
+        <td class="num">391</td>
+        <td class="num">25</td>
+        <td class="num">n/o (&sect;106.511)</td>
+        <td class="num">15</td>
+        <td class="num">7</td>
+        <td class="num">10</td>
+        <td class="num total">76</td>
+        <td class="tier-cell-Evidenced">Evidenced</td>
+      </tr>
+      <tr>
+        <td class="num">6</td>
+        <td><a href="https://github.com/assayenergy/gridscore/blob/main/evidence/02-crusoe-lancium-abilene.md">Abilene Campus (Stargate + Microsoft AI Factory)</a></td>
+        <td>Crusoe Energy / Lancium</td>
+        <td>Taylor County</td>
+        <td class="num">2,100</td>
+        <td class="num">12</td>
+        <td class="num">25</td>
+        <td class="num">10</td>
+        <td class="num">7</td>
+        <td class="num">18</td>
+        <td class="num total">72</td>
+        <td class="tier-cell-Evidenced">Evidenced</td>
+      </tr>
+      <tr>
+        <td class="num">6</td>
+        <td><a href="https://github.com/assayenergy/gridscore/blob/main/evidence/13-google-armstrong-county.md">Panhandle Campus &mdash; Armstrong County</a></td>
+        <td>Google</td>
+        <td>Armstrong County</td>
+        <td class="num">not disclosed</td>
+        <td class="num">15</td>
+        <td class="num">25</td>
+        <td class="num">5</td>
+        <td class="num">7</td>
+        <td class="num">20</td>
+        <td class="num total">72</td>
+        <td class="tier-cell-Evidenced">Evidenced</td>
+      </tr>
+      <tr>
+        <td class="num">6</td>
+        <td><a href="https://github.com/assayenergy/gridscore/blob/main/evidence/17-cipher-mining-barber-lake.md">Barber Lake</a></td>
+        <td>Cipher Mining</td>
+        <td>Mitchell County</td>
+        <td class="num">300</td>
+        <td class="num">22</td>
+        <td class="num">12</td>
+        <td class="num">15</td>
+        <td class="num">7</td>
+        <td class="num">16</td>
+        <td class="num total">72</td>
+        <td class="tier-cell-Evidenced">Evidenced</td>
+      </tr>
+      <tr>
+        <td class="num">9</td>
+        <td><a href="https://github.com/assayenergy/gridscore/blob/main/evidence/11-crusoe-lancium-childress.md">Childress Campus</a></td>
+        <td>Crusoe Energy / Lancium</td>
+        <td>Childress County</td>
+        <td class="num">1,000</td>
+        <td class="num">15</td>
+        <td class="num">n/o (&sect;106.511)</td>
+        <td class="num">8</td>
+        <td class="num">7</td>
+        <td class="num">18</td>
+        <td class="num total">64</td>
+        <td class="tier-cell-Progressing">Progressing</td>
+      </tr>
+      <tr>
+        <td class="num">10</td>
+        <td><a href="https://github.com/assayenergy/gridscore/blob/main/evidence/10-hut8-beacon-point.md">Beacon Point</a></td>
+        <td>Hut 8</td>
+        <td>Nueces County</td>
+        <td class="num">1,000</td>
+        <td class="num">10</td>
+        <td class="num">n/o (&sect;106.511)</td>
+        <td class="num">15</td>
+        <td class="num">7</td>
+        <td class="num">14</td>
+        <td class="num total">61</td>
+        <td class="tier-cell-Progressing">Progressing</td>
+      </tr>
+      <tr>
+        <td class="num">11</td>
+        <td><a href="https://github.com/assayenergy/gridscore/blob/main/evidence/06-vantage-frontier-shackelford.md">Frontier</a></td>
+        <td>Vantage Data Centers</td>
+        <td>Shackelford County</td>
+        <td class="num">1,400</td>
+        <td class="num">12</td>
+        <td class="num">25</td>
+        <td class="num">8</td>
+        <td class="num">4</td>
+        <td class="num">10</td>
+        <td class="num total">59</td>
+        <td class="tier-cell-Progressing">Progressing</td>
+      </tr>
+      <tr>
+        <td class="num">12</td>
+        <td><a href="https://github.com/assayenergy/gridscore/blob/main/evidence/19-marathon-garden-city.md">Garden City Facility</a></td>
+        <td>Marathon Digital (MARA)</td>
+        <td>Glasscock County</td>
+        <td class="num">200</td>
+        <td class="num">22</td>
+        <td class="num">n/o (&sect;106.511)</td>
+        <td class="num">5</td>
+        <td class="num">0</td>
+        <td class="num">9</td>
+        <td class="num total">48</td>
+        <td class="tier-cell-Progressing">Progressing</td>
+      </tr>
+      <tr>
+        <td class="num">13</td>
+        <td><a href="https://github.com/assayenergy/gridscore/blob/main/evidence/15-aligned-project-caprock.md">Project Caprock</a></td>
+        <td>Aligned Data Centers</td>
+        <td>Hale County</td>
+        <td class="num">540</td>
+        <td class="num">10</td>
+        <td class="num">n/o (&sect;106.511)</td>
+        <td class="num">6</td>
+        <td class="num">7</td>
+        <td class="num">10</td>
+        <td class="num total">44</td>
+        <td class="tier-cell-Progressing">Progressing</td>
+      </tr>
+      <tr>
+        <td class="num">14</td>
+        <td><a href="https://github.com/assayenergy/gridscore/blob/main/evidence/04-tract-caldwell-county.md">Data Center Technology Park</a></td>
+        <td>Tract</td>
+        <td>Caldwell County</td>
+        <td class="num">2,000</td>
+        <td class="num">18</td>
+        <td class="num">0 (true zero)</td>
+        <td class="num">8</td>
+        <td class="num">0</td>
+        <td class="num">14</td>
+        <td class="num total">40</td>
+        <td class="tier-cell-Progressing">Progressing</td>
+      </tr>
+      <tr>
+        <td class="num">14</td>
+        <td><a href="https://github.com/assayenergy/gridscore/blob/main/evidence/21-ecp-kkr-cyrusone-bosque-county.md">Bosque County Campus</a></td>
+        <td>Energy Capital Partners + KKR / CyrusOne</td>
+        <td>Bosque County</td>
+        <td class="num">190</td>
+        <td class="num">5</td>
+        <td class="num">n/o (&sect;106.511)</td>
+        <td class="num">15</td>
+        <td class="num">0</td>
+        <td class="num">10</td>
+        <td class="num total">40</td>
+        <td class="tier-cell-Progressing">Progressing</td>
+      </tr>
+      <tr>
+        <td class="num">16</td>
+        <td><a href="https://github.com/assayenergy/gridscore/blob/main/evidence/08-sb-energy-stargate-milam.md">Stargate Milam County</a></td>
+        <td>SB Energy (SoftBank)</td>
+        <td>Milam County</td>
+        <td class="num">1,200</td>
+        <td class="num">20</td>
+        <td class="num">0 (true zero)</td>
+        <td class="num">8</td>
+        <td class="num">0</td>
+        <td class="num">8</td>
+        <td class="num total">36</td>
+        <td class="tier-cell-Announced-only">Announced-only</td>
+      </tr>
+      <tr>
+        <td class="num">17</td>
+        <td><a href="https://github.com/assayenergy/gridscore/blob/main/evidence/05-powerhouse-provident-ellis-county.md">Grand Prairie Campus</a></td>
+        <td>PowerHouse Data Centers / Provident Data Centers</td>
+        <td>Ellis County</td>
+        <td class="num">1,800</td>
+        <td class="num">10</td>
+        <td class="num">n/o (&sect;106.511)</td>
+        <td class="num">6</td>
+        <td class="num">0</td>
+        <td class="num">8</td>
+        <td class="num total">32</td>
+        <td class="tier-cell-Announced-only">Announced-only</td>
+      </tr>
+      <tr>
+        <td class="num">18</td>
+        <td><a href="https://github.com/assayenergy/gridscore/blob/main/evidence/07-cloudburst-san-marcos.md">San Marcos Data Center I</a></td>
+        <td>CloudBurst Data Centers / Evolve Holdings</td>
+        <td>Hays / Guadalupe County</td>
+        <td class="num">1,200</td>
+        <td class="num">12</td>
+        <td class="num">8</td>
+        <td class="num">10</td>
+        <td class="num">0</td>
+        <td class="num">0</td>
+        <td class="num total">30</td>
+        <td class="tier-cell-Announced-only">Announced-only</td>
+      </tr>
+      <tr>
+        <td class="num">19</td>
+        <td><a href="https://github.com/assayenergy/gridscore/blob/main/evidence/18-powerhouse-irving-dallas.md">Irving Campus</a></td>
+        <td>PowerHouse Data Centers</td>
+        <td>Dallas County</td>
+        <td class="num">201</td>
+        <td class="num">10</td>
+        <td class="num">5</td>
+        <td class="num">5</td>
+        <td class="num">0</td>
+        <td class="num">8</td>
+        <td class="num total">28</td>
+        <td class="tier-cell-Announced-only">Announced-only</td>
+      </tr>
+      <tr>
+        <td class="num">20</td>
+        <td><a href="https://github.com/assayenergy/gridscore/blob/main/evidence/03-poolside-project-horizon.md">Project Horizon</a></td>
+        <td>Poolside AI (with CoreWeave)</td>
+        <td>Pecos County</td>
+        <td class="num">2,000</td>
+        <td class="num">15</td>
+        <td class="num">0 (true zero)</td>
+        <td class="num">2</td>
+        <td class="num">7</td>
+        <td class="num">2</td>
+        <td class="num total">26</td>
+        <td class="tier-cell-Announced-only">Announced-only</td>
+      </tr>
+      <tr>
+        <td class="num">21</td>
+        <td><a href="https://github.com/assayenergy/gridscore/blob/main/evidence/20-prometheus-kaufman-county.md">Kaufman County Campus</a></td>
+        <td>Prometheus Hyperscale</td>
+        <td>Kaufman County</td>
+        <td class="num">200</td>
+        <td class="num">8</td>
+        <td class="num">n/o (&sect;106.511)</td>
+        <td class="num">5</td>
+        <td class="num">0</td>
+        <td class="num">6</td>
+        <td class="num total">25</td>
+        <td class="tier-cell-Announced-only">Announced-only</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h2>How to read this</h2>
+  <div class="how-to-read">
+    <p>This scores <strong>projects on public evidence</strong>, not companies on character. Every
+    scored signal has a linked public source and a capture date. No evidence found means the
+    signal scores zero, logged as no public evidence found &mdash; that is not a claim the thing
+    doesn't exist, only that it wasn't found in the public record.</p>
+
+    <ul class="signals-list">
+      <li><b>Site control &mdash; 25</b> Recorded ownership/lease with a traceable paper trail; a
+        government counterparty (city, county, university) is the strongest version.</li>
+      <li><b>Physical commitment &mdash; 25*</b> A docket-numbered TCEQ air permit tied to the
+        specific site &mdash; the single strongest "this is real" signal. See the three meanings
+        below.</li>
+      <li><b>Financial commitment &mdash; 15</b> An executed interconnection or power-supply
+        agreement, a PUC filing, or an SEC-disclosed financing figure specific to the project.</li>
+      <li><b>Incentive filings &mdash; 15</b> An executed Texas JETI Act (Ch. 403) agreement or a
+        county/municipal tax abatement agreement earns up to the full 15. A match on the
+        Comptroller's separate &sect;151.359 "Qualifying Data Center" registry caps at 7 of 15.</li>
+      <li><b>Sponsor track record &mdash; 20</b> A documented pattern of the sponsor delivering
+        announced projects before, at claimed scale, on roughly claimed timelines &mdash; specific
+        cited instances, not general reputation.</li>
+    </ul>
+
+    <p><strong>*Three meanings of a missing Physical Commitment permit</strong> &mdash; treating
+    them identically would be the single biggest distortion in this dataset:</p>
+    <ul>
+      <li><strong>Confirmed, permitted</strong> (score 5&ndash;25) &mdash; a TCEQ air permit, a
+        TDLR building permit, or equivalent was found and tied to the site.</li>
+      <li><strong>True zero</strong> (score 0) &mdash; the project's own stated power strategy
+        would require an individually-permitted facility, and no such permit was found despite
+        that being the reasonable expectation. Shown as <strong>"0 (true zero)"</strong>.</li>
+      <li><strong>Not observable by category</strong> (excluded from scoring, not scored as zero)
+        &mdash; the project's power strategy is exactly the profile Texas's "permit by rule" regime
+        (30 TAC &sect;106.511) was built to wave through without individual public notice. A
+        missing permit here tells you nothing. Shown as <strong>"n/o (&sect;106.511)"</strong>, and
+        the total is renormalized over the remaining four signals (&divide; 75 &times; 100) rather
+        than defaulted to zero.</li>
+    </ul>
+
+    <p><strong>Reversals are flagged, never subtracted.</strong> Where a project has a publicly
+    documented, dated setback since its original announcement (a cancelled tenant-funding pact, a
+    terminated anchor lease, an open lawsuit), no points are subtracted beyond what the underlying
+    evidence already implies. The reversal is logged as a flag with a citation in the evidence
+    file &mdash; a fact to report, not a hit to double-count.</p>
+  </div>
+
+  <p class="links-line">
+    <a href="https://github.com/assayenergy/gridscore/blob/main/methodology.md">Method</a>
+    <a href="https://github.com/assayenergy/ledger/blob/main/corrections.md">Corrections</a>
+    <a href="https://assayenergy.substack.com">Substack</a>
+  </p>
+
+  <footer>
+    <p>Assay takes no money from the developers, sponsors or projects it scores. It uses public
+    records only and publishes results whether they pass or fail.</p>
+  </footer>
+
+</div>
+</body>
+</html>
