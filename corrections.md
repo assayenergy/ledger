@@ -5,6 +5,18 @@ Mirror of the Substack page, kept here for timestamped history. Last synced: 202
 A verification practice that doesn't correct itself is not an honest one. Every correction is
 listed here with its date. Both after publishing, and in review before going live.
 
+**September 26, 2026, GridScore table sync.**
+- docs/scored_table.csv synced from gridscore main (33529a1), with the
+  corrections link made a full URL.
+- Fermi's Dec 12, 2025 share drop is 33.8% (closes of $15.25 and $10.09;
+  matches the Lupia complaint). This reverses my Aug 5 correction, which
+  changed "about 34%" to "about 33%". The original figure was closer; the
+  Aug 5 correction was wrong.
+- The "parallel filing" was a law-firm press release about the same case.
+  There is one securities class action.
+- No score changed. Details:
+  https://github.com/assayenergy/gridscore/blob/main/corrections.md
+
 **September 23, 2026, parcel reference.**
 
 - Removed a reference to a specific parcel from parcels/va/county-surry.md. The reference remains
