@@ -1,9 +1,16 @@
-Mirror of the Substack page, kept here for timestamped history. Last synced: 2026-09-20.
+Mirror of the Substack page, kept here for timestamped history. Last synced: 2026-09-28.
 
 # Corrections
 
 A verification practice that doesn't correct itself is not an honest one. Every correction is
 listed here with its date. Both after publishing, and in review before going live.
+
+**September 28, 2026, GridScore table sync.**
+- September audit: 9 projects re-scored; details:
+  https://github.com/assayenergy/gridscore/blob/main/corrections.md
+- SB Energy / Stargate Milam: 36 -> 63 on this page, from the 2026-09-26
+  re-score after its S-1 (gridscore 2aa06ba); it had not been synced here
+  until today.
 
 **September 26, 2026, GridScore table sync.**
 - docs/scored_table.csv synced from gridscore main (33529a1), with the
