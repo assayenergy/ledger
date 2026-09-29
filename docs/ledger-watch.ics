@@ -1,0 +1,60 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Assay Energy//Ledger Watch dates//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Assay Ledger Watch
+BEGIN:VEVENT
+UID:9b28f75fafa1f98fc01f3f2733ffbe6c12f883b7@ledger.assayenergy
+DTSTAMP:20260929T000000Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:TCEQ update due to the Office of the Governor on compliance with th
+ e data center permit halt
+DESCRIPTION:Projects affected: Frontier\; Panhandle Campus - Armstrong Coun
+ ty\nSource: https://gov.texas.gov/news/post/governor-abbott-directs-tceq-t
+ o-halt-data-center-permits\nSource captured: 2026-09-29
+URL:https://gov.texas.gov/news/post/governor-abbott-directs-tceq-to-halt-da
+ ta-center-permits
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e5877afdfc46388ed5c06feded00b7f4cf4c3132@ledger.assayenergy
+DTSTAMP:20260929T000000Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:ERCOT files the Batch Zero Eligibility Verification Report (energiz
+ ation pause on data centers and crypto facilities of 75 MW or more runs un
+ til verification is complete)
+DESCRIPTION:Projects affected: all Texas large loads\nSource: https://www.e
+ rcot.com/files/docs/2026/08/20/Batch-Zero-Verification-and-Audit-PUCT-Pres
+ entation.pdf\nSource captured: 2026-09-29
+URL:https://www.ercot.com/files/docs/2026/08/20/Batch-Zero-Verification-and
+ -Audit-PUCT-Presentation.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:40f3873ea09cd654e9dfc4bb3a35963100fc9932@ledger.assayenergy
+DTSTAMP:20260929T000000Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:PUCT open meeting on the Batch Zero Eligibility Verification Report
+DESCRIPTION:Projects affected: all Texas large loads\nSource: https://www.e
+ rcot.com/files/docs/2026/08/20/Batch-Zero-Verification-and-Audit-PUCT-Pres
+ entation.pdf\nSource captured: 2026-09-29
+URL:https://www.ercot.com/files/docs/2026/08/20/Batch-Zero-Verification-and
+ -Audit-PUCT-Presentation.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d4d853586fd5de52bf916f670d6e4915661452a6@ledger.assayenergy
+DTSTAMP:20260929T000000Z
+DTSTART;VALUE=DATE:20270112
+DTEND;VALUE=DATE:20270113
+SUMMARY:90th Texas Legislature convenes (regular session\, noon)
+DESCRIPTION:Projects affected: all Texas large loads\nSource: https://tlc.t
+ exas.gov/docs/legref/Dates-of-Interest.pdf\nSource captured: 2026-09-29
+URL:https://tlc.texas.gov/docs/legref/Dates-of-Interest.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
